@@ -1,0 +1,63 @@
+.explore-collection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-collection h1{
+    color: #1E1E2F;
+    font-weight: 500;
+}
+
+.explore-collection-text{
+    max-width: 60%;
+    color: #808080;
+}
+
+.explore-collection-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+}
+
+.explore-collection-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-collection-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.explore-collection-list-item p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+}
+
+.explore-collection hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.explore-collection-list-item .active{
+    border: 5px solid #06365c;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+@media (max-width:1050px) {
+    .explore-collection-text{
+        max-width: 100%;
+        font-size: 14px;
+    }   
+}

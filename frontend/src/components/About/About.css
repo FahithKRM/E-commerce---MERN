@@ -1,0 +1,29 @@
+.about-container{
+    align-items: center;
+    margin: auto auto;
+    margin: 100px 0 50px 30px;
+}
+
+.about-container h1{
+    color: #1E1E2F;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.about-container h3{
+    font-weight: 500;
+    padding: 10px;
+}
+
+.about-container p{
+    max-width: 60%;
+    color: #808080;
+    padding: 10px;
+}
+
+.about hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
